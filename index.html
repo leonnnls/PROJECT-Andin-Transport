@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>AndinTransport - Sewa Mobil Surabaya</title>
+  <meta name="title" content="AndinTransport">
+  <meta name="description" content="AndinTransport - Jasa Sewa Mobil Terbaik di Surabaya. Melayani sewa Innova, Hiace, Fortuner dengan driver profesional. Aman, Nyaman, Terpercaya.">
+
+  <link rel="shortcut icon" href="./assets/images/logo/AndinTransportLogo_Resize.png" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <link rel="preload" as="image" href="./assets/images/hero/hero1-modified.JPEG">
+  <link rel="preload" as="image" href="./assets/images/hero/hero2-modified.jpeg">
+  <link rel="preload" as="image" href="./assets/images/hero/hero3-modified.jpeg">
+
+</head>
+
+<body id="top">
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Andin</p>
+  </div>
+
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Tenggilis Mejoyo V / 19, Kota Surabaya, JawaTimur, ID
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 7.00 am to 17.00 pm</span>
+      </div>
+
+      <a href="tel:+6281911966906" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+62 819 119 66906</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:andintransport@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">andintransport@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo/AndinTransport_linear.png" width="160" height="50" alt="Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo/AndinTransport_linear.png" width="160" height="50" alt="Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Unit</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#reservation" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Reservation</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Tenggilis Mejoyo V / 19, <br>
+            Surabaya, JawaTimur, ID
+          </address>
+
+          <p class="body-4 navbar-text">Open: 07.00 am - 05.00 pm</p>
+
+          <a href="mailto:andintransport@gmail.com" class="body-4 sidebar-link">andintransport@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+6281911966906" class="body-1 contact-number hover-underline">
+            +62 819 119 66906
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="https://wa.me/6281911966906?text=Halo%20Permisi%20Saya%20ingin%20bertanya%20mengenai%20Sewa%20Mobil" class="btn btn-secondary">
+        <span class="text text-1">Book now</span>
+        <span class="text text-2" aria-hidden="true">by whatsapp</span>
+      </a>      
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero/hero1-modified.JPEG" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Your Trust, Our Journey</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              PILIHAN REVOLUSIONER UNTUK SEWA MOBIL YANG  <br>
+              BERKUALITAS
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+            </p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Unit</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Unit</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero/hero2-modified.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Cruising with Elegance</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Kendaraan Berkualitas, Layanan Terpercaya <br>
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+            </p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Unit</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Unit</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero/hero3-modified.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Safe, Comfortable, and Reliable.</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Percayakan Perjalanan Anda pada Kami: Aman, Nyaman, dan <br>
+              Terpercaya
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+            </p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Unit</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Unit</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+      </section>
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Our Best Unit</p>
+
+          <h2 class="headline-1 section-title"></h2>
+
+          <p class="section-text">
+            Untuk perjalanan yang sempurna, Toyota Innova dan Mercedes Benz Sprinter -
+             kombinasi kenyamanan, ruang, dan kemewahan yang tak tertandingi.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/product/innova-diesel.jpg" width="285" height="336" loading="lazy" alt="Innova Diesel"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Toyota <br> Innova Diesel</a>
+                  </h3>
+
+                  <a href="https://wa.me/6281911966906?text=Halo,%20apakah%20%22Toyota%20Innova%20Diesel%22%20nya%20tersedia%20?" class="btn-text hover-underline label-2">Book now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/product/mercedesBenz-sprinter.jpeg" width="285" height="336" loading="lazy" alt="Sprinter"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Mercedes Benz Sprinter</a>
+                  </h3>
+
+                  <a href="https://wa.me/6281911966906?text=Halo,%20apakah%20%22Mercedez%20benz%20Sprinter%22%20nya%20tersedia%20?" class="btn-text hover-underline label-2">Book now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/product/innova-g.jpeg" width="285" height="336" loading="lazy" alt="Innova-g"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Toyota <br> Innova G</a>
+                  </h3>
+
+                  <a href="https://wa.me/6281911966906?text=Halo,%20apakah%20%22Toyota%20Innova%20Type%20G%22%20nya%20tersedia%20?" class="btn-text hover-underline label-2">Book Now</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+            <h2 class="headline-1 section-title"></h2>
+
+            <p class="section-text">
+              AndinTransport dimulai dengan satu mobil dan semangat pantang menyerah. Dari melayani kebutuhan antar jemput hingga menjadi escort duties dan keperluan bisnis pribadi. 
+              AndinTransport akan terus mengembangkan usahanya menjadi perusahaan transportasi yang besar dan dikenal masyarakat, dengan armada yang terjaga dan tim profesional.
+              Kami berkomitmen memberikan pelayanan terbaik untuk setiap pelanggan.
+            </p>
+
+            <div class="contact-label">Pesan Melalui Panggilan Sekarang</div>
+
+            <a href="tel:+6281911966906" class="body-1 contact-number hover-underline">+62 (819) 119 66906</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">More Info</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about/about1.jpeg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/logo/AndinTransportLogo.png" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          
+          <div id="map" style="width: 100%; height: 100%; min-height: 450px; z-index: 1;"></div>
+
+          <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+          
+          <script>
+            // Inisialisasi Peta
+            var map = L.map('map').setView([-7.322420, 112.759676], 15);
+
+            // Tambahkan Layer OpenStreetMap
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+
+            // Tambahkan Marker
+            var marker = L.marker([-7.322420, 112.759676]).addTo(map);
+            
+            // Tambahkan Popup Informasi
+            marker.bindPopup("<b>AndinTransport</b><br>Tenggilis Mejoyo V / 19, Surabaya").openPopup();
+          </script>
+        </div>
+      
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+      
+            <img src="./assets/images/icon/location.png" width="50" height="50" loading="lazy" alt="badge" class="abs-img">
+      
+            <p class="section-subtitle label-2">Our Location</p>
+      
+            <p class="section-text">
+              Tenggilis Mejoyo V / 19, Kota Surabaya, JawaTimur, Indonesia
+            </p>
+      
+            <div class="wrapper">
+              <del class="del body-3"></del>
+              <span class="span body-1"></span>
+            </div>
+      
+            <a href="https://www.google.com/maps/search/?api=1&query=Tenggilis+Mejoyo+V+%2F+19+Surabaya" target="_blank" class="btn btn-primary">
+              <span class="text text-1">Visit</span>
+              <span class="text text-2" aria-hidden="true">Google Maps</span>
+            </a>                        
+      
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Our Unit <br>by</p>
+
+          <h2 class="headline-1 section-title text-center">Andin Transport</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/product/png/innova-diesel.png" width="100" height="100" loading="lazy" alt="Innova Diesel"
+                    class="img-cover">
+                </figure>
+
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="https://wa.me/6281911966906?text=Halo%20kak,%20apakah%20%22Toyota%20Innova%20Diesel%22%20nya%20tersedia?" class="card-title">Toyota<br>Innova Diesel</a>
+                    </h3>
+                    <span class="span title-2"></span>
+                  </div>                  
+                  <p class="card-text label-1">
+                    Kapasitas 7 Seat, Mesin Diesel Tangguh, AC Double Blower, Sangat Irit & Nyaman.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/product/png/innova-g.png" width="100" height="100" loading="lazy" alt="Innova G"
+                    class="img-cover">
+                </figure>
+
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="https://wa.me/6281911966906?text=Halo%20kak,%20apakah%20%22Toyota%20Innova%20Type%20G%22%20nya%20tersedia?" class="card-title">Toyota<br>Innova Type G</a>
+                    </h3>
+                    <span class="span title-2"></span>
+                  </div>                  
+                  <p class="card-text label-1">
+                    Pilihan Ekonomis Keluarga, Kabin Bersih & Wangi, Suspensi Empuk Standar Toyota.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/product/png/innova-trd-diesel.png" width="100" height="100" loading="lazy" alt="Innova Trd Diesel"
+                    class="img-cover">
+                </figure>
+
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="https://wa.me/6281911966906?text=Halo%20kak,%20apakah%20%22Toyota%20Innova%20TRD%20Diesel%22%20nya%20tersedia?" class="card-title">Toyota<br>Innova TRD Diesel</a>
+                    </h3>
+                    <span class="span title-2"></span>
+                  </div>                  
+                  <p class="card-text label-1">
+                    Tampilan Sporty TRD, Interior Hitam Elegan, Performa Mesin Responsif & Stabil.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/product/png/innova-venturer.png" width="100" height="100" loading="lazy" alt="Innova Venturer"
+                    class="img-cover">
+                </figure>
+
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="https://wa.me/6281911966906?text=Halo%20kak,%20apakah%20%22Toyota%20Innova%20Venturer%22%20nya%20tersedia?" class="card-title">Toyota<br>Innova Venturer</a>
+                    </h3>                  
+                    <span class="span title-2"></span>
+                  </div>
+                  <p class="card-text label-1">
+                    Kenyamanan VIP (Captain Seat), Ambient Light, Interior Kulit Mewah, Full Fitur.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/product/png/toyota-fortuner-gr.png" width="100" height="100" loading="lazy" alt="Fortuner GR"
+                    class="img-cover">
+                </figure>
+
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="https://wa.me/6281911966906?text=Halo%20kak,%20apakah%20%22Toyota%20Fortuner%20GR%22%20nya%20tersedia?" class="card-title">Toyota<br>Fortuner GR</a>
+                    </h3>
+                    <span class="span title-2"></span>
+                  </div>                  
+                  <p class="card-text label-1">
+                    SUV Premium Gagah, Power Backdoor, Sangat Nyaman untuk Perjalanan Bisnis / VIP.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/product/png/toyota-hiace-luxury.png" width="100" height="100" loading="lazy" alt="Toyota Hiace"
+                    class="img-cover">
+                </figure>
+
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="https://wa.me/6281911966906?text=Halo%20kak,%20apakah%20%22Toyota%20Hiace%20Luxury%22%20nya%20tersedia?" class="card-title">Toyota<br>Hiace Luxury</a>
+                    </h3>
+                    <span class="span title-2"></span>
+                  </div>                  
+                  <p class="card-text label-1">
+                    Kapasitas 14 Penumpang, Kabin Luas & Tinggi, Solusi Terbaik untuk Rombongan Tour.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            Open Monday - Friday <span class="span">7:00 am</span> to <span class="span">5:00 pm</span>
+          </p>
+
+          <a href="#reservation" class="btn btn-primary">
+            <span class="text text-1">Order</span>
+
+            <span class="text text-2" aria-hidden="true">Now</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/hero/hero2-modified.jpeg')" aria-label="testimonials">
+        
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+
+            <p class="section-subtitle label-2">Crew</p>
+
+            <h2 class="headline-1 section-title">Our Available Driver</h2>
+
+            <ul class="grid-list">
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/icon/person.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+                  <h3 class="title-2 card-title">Driver 1</h3>
+                  <p class="label-1 card-text">Amam Rachmanto</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/icon/person.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+                  <h3 class="title-2 card-title">Driver 2</h3>
+                  <p class="label-1 card-text">Rizqi Ivah</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/icon/person.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+                  <h3 class="title-2 card-title">Driver 3</h3>
+                  <p class="label-1 card-text">Nadief Yanar</p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img src="./assets/images/icon/person.png" width="100" height="80" loading="lazy" alt="icon">
+                  </div>
+                  <h3 class="title-2 card-title">Driver 4</h3>
+                  <p class="label-1 card-text">Leon Lee</p>
+                </div>
+              </li>
+
+            </ul>
+
+            <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+              class="shape shape-1">
+
+            <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+              class="shape shape-2">
+
+          </div>
+        </section>
+
+      </section>
+
+      <section class="reservation" id="reservation">
+        <div class="container">
+      
+          <div class="form reservation-form bg-black-10">
+      
+            <form id="reservation-form" class="form-left">
+      
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+      
+              <p class="form-text text-center">
+                Booking request <a href="tel:+6281911966906" class="link">+62-819-11966906</a>
+                or fill out the order form
+              </p>
+      
+              <div class="input-wrapper">
+                <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="off" class="input-field" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field" required>
+              </div>
+      
+              <div class="input-wrapper">
+                <div class="icon-wrapper">
+                  <ion-icon name="car-outline" aria-hidden="true"></ion-icon>
+                  <select id="car" name="car" class="input-field" required>
+                    <option value="Toyota Innova Diesel">Toyota Innova Diesel</option>
+                    <option value="Toyota Innova TRD Diesel">Toyota Innova TRD Diesel</option>
+                    <option value="Toyota Fortuner GR">Toyota Fortuner GR</option>
+                    <option value="Toyota Innova Type G">Toyota Innova Type G</option>
+                    <option value="Toyota Innova Venturer">Toyota Innova Venturer</option>
+                    <option value="Toyota Hiace Luxury">Toyota Hiace Luxury</option>
+                    <option value="Mercedes Benz Sprinter">Mercedes Benz Sprinter</option>
+                  </select>
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+                  <input type="date" id="reservation-date" name="reservation-date" class="input-field" required>
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+      
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <select id="time" name="time" class="input-field" required>
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="10:00am">10 : 00 am</option>
+                    <option value="11:00am">11 : 00 am</option>
+                    <option value="12:00pm">12 : 00 pm</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+              </div>
+      
+              <textarea id="message" name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+      
+              <button type="button" class="btn btn-secondary" onclick="sendToWhatsApp()">
+                <span class="text text-1">Order</span>
+                <span class="text text-2" aria-hidden="true">By Whatsapp</span>
+              </button>
+      
+            </form>
+      
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+              <h2 class="headline-1 text-center">Contact Us</h2>
+              <p class="contact-label">Booking Request</p>
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+62-819-11966906</a>
+              <div class="separator"></div>
+              <p class="contact-label">Location</p>
+              <address class="body-4">
+                Tenggilis Mejoyo V / 19, Surabaya, JawaTimur, ID <br>
+              </address>
+              <p class="contact-label">Open Hours</p>
+              <p class="body-4">
+                Monday to Friday <br>
+                07.00 am - 5.30pm
+              </p>
+            </div>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+      <script>
+        function sendToWhatsApp() {
+          // Ambil nilai dari form
+          const name = document.getElementById("name").value;
+          const phone = document.getElementById("phone").value;
+          const car = document.getElementById("car").value;
+          const date = document.getElementById("reservation-date").value;
+          const time = document.getElementById("time").value;
+          const message = document.getElementById("message").value;
+      
+          // Buat teks pesan untuk WhatsApp
+          const textMessage = `Halo, saya ingin melakukan reservasi mobil:\n\n` +
+                              `Nama: ${name}\n` +
+                              `Telepon: ${phone}\n` +
+                              `Mobil: ${car}\n` +
+                              `Tanggal: ${date}\n` +
+                              `Waktu: ${time}\n` +
+                              `Pesan: ${message}`;
+      
+          // Buat URL wa.me untuk mengirim pesan
+          const whatsappUrl = `https://wa.me/6285336565485?text=${encodeURIComponent(textMessage)}`;
+      
+          // Redirect user ke WhatsApp
+          window.open(whatsappUrl, '_blank');
+        }
+      </script>
+
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/blog/dpr.jpeg" width="350" height="450" loading="lazy"
+                    alt="AndinTransport Service" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-06-15">15/06/2024</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">DPR RI</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Penggunaan Jasa AndinTransport untuk Patwal
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/blog/smelter.jpeg" width="350" height="450" loading="lazy"
+                    alt="AndinTransport Service" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-06-15">22/03/2025</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">PT. Smelter Indonesia</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Penjemputan Staff Freeport Indonesia
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/blog/Document-3.JPG" width="350" height="450" loading="lazy"
+                    alt="AndinTransport Service" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2024-07-03">03/07/2025</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Preparing for customer Order</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Menyiapkan sejumlah mobil untuk customer
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/hero/hero1-modified.JPEG')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo/AndinTransport_linear.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Tenggilis Mejoyo V / 19, Kota Surabaya, JawaTimur, ID
+          </address>
+
+          <a href="mailto:andintransport.com" class="body-4 contact-link">andintransport@gmail.com</a>
+
+          <a href="tel:+6281911966906" class="body-4 contact-link">Booking Request : +62-819-11966906</a>
+
+          <p class="body-4">
+            Open : 07:00 am - 17:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Contact Us!</p>
+
+          <p class="label-1">
+            Contact us by<span class="span"> Email</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Send it</span>
+
+              <span class="text text-2" aria-hidden="true">From Email</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#home" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#menu" class="label-2 footer-link hover-underline">Unit</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#reservation" class="label-2 footer-link hover-underline">Reservation</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          © 2025 AndinTransport. All Rights Reserved | Under the auspices of <a href="#"
+            target="_blank" class="link">PT Amena Safeyah Sejahtera</a>
+        </p>              
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
